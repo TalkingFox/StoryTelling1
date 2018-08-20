@@ -53881,7 +53881,7 @@ declare namespace Phaser {
              * @param y The y position to place the layer in the world. If not specified, it will
              * default to the layer offset from Tiled or 0.
              */
-            createStaticLayer(layerID: integer | string, tileset: Phaser.Tilemaps.Tileset, x: number, y: number): Phaser.Tilemaps.StaticTilemapLayer;
+            createStaticLayer(layerID: integer | string, tileset: Phaser.Tilemaps.Tileset, x?: number, y?: number): Phaser.Tilemaps.StaticTilemapLayer;
 
             /**
              * Removes all layer data from this Tilemap and nulls the scene reference. This will destroy any
