@@ -20,9 +20,11 @@
     "webpack-dev-server": "3.1.4"
   },
   "dependencies": {
-    "phaser": "3.9.0"
+    "phaser": "3.9.0",
+    "url-parse": "^1.4.3"
   },
   "scripts": {
+    "start": "npm run dev",
     "dev": "webpack --mode development && webpack-dev-server --mode development",
     "build": "webpack --mode production && webpack-dev-server --mode production"
   },
